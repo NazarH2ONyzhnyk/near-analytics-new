@@ -43,7 +43,7 @@
                     <a href="#" class="hidden lg:flex items-center justify-center text-base font-semibold w-60 btn">
                         Create a dataset
                     </a>
-                    <a href="" class="ml-8 lg:hidden">
+                    <a href="./dashboard-mobile-menu.html" class="ml-8 lg:hidden">
                         <img src="./img/menu.png" alt="" class="">
                     </a>
                 </div>
@@ -55,15 +55,15 @@
     <!-- Dashboard -->
     <section>
         <div class="container mx-auto px-6">
-            <div class="grid grid-cols-1 md:grid-cols-3 mt-20 gap-x-11 xl:gap-x-20">
+            <div class="grid grid-cols-1 md:grid-cols-3 mt-6 md:mt-20 gap-x-11 xl:gap-x-20">
 
                 <!-- Profile info -->
-                <div class="col-span-1">
-                    <div class="container mx-auto px-3">
+                <div class="col-span-1 hidden md:block">
+                    <div class="container mx-auto px-3 md:px-0">
 
                         <!-- Photo & name -->
                         <div class="flex items-center">
-                            <div class="flex items-center justify-center w-24 h-24 bg-gray-200 rounded-full">
+                            <div class="flex items-center justify-center min-w-24 h-24 bg-gray-200 rounded-full">
                                 <img src="./img/photo-camera-interface-symbol-for-button 1.png" alt="">
                             </div>
                             <div class="ml-6">
@@ -78,7 +78,7 @@
 
                         <!-- Buttons -->
                         <div class="mt-11 space-y-6">
-                            <a href="#" class="inline-block w-full btn">Edit profile</a>
+                            <a href="#" class="inline-block w-full btn border">Edit profile</a>
                             <a href="#" class="flex items-center justify-center w-full py-3 border border-red-600 text-red-600 rounded-full hover:bg-red-600 hover:text-white">
                                 Logout 
                                 <img src="./img/login-box-line.png" alt="" class="ml-2">
@@ -95,14 +95,19 @@
                 </div>
 
                 <!-- Cards -->
-                <div class="col-span-1 md:col-span-2">
-                    <h1 class="text-2xl md:text-4xl lg:text-6xl font-bold">My datasets.</h1>
+                <div class="col-span-1 md:col-span-2 ">
+                    <div class="flex items-center justify-between">
+                        <h1 class="text-2xl md:text-4xl lg:text-6xl font-bold">My datasets.</h1>
+                        <a href="#" class="">
+                            <img src="./img/New-Button.png" alt="" class="h-10 w-10 lg:hidden">
+                        </a>
+                    </div>
                     <div class="grid grid-cols-1 xl:grid-cols-2 mt-11 lg:gap-x-4 xl:gap-x-11 gap-y-10 xl:gap-y-8">
                         
                         <!-- One card -->
-                        <div class="flex w-full h-28 md:h-32 lg:h-40 bg-white sh-card rounded-md">
+                        <div class="flex w-full h-32 md:h-32 lg:h-40 bg-white sh-card rounded-md">
                             <a href="#" class="block h-full min-w-24 w-24 bg-red-500 rounded-l-md "></a>
-                            <div class="pt-5 px-6">
+                            <div class="py-5 px-6 box-content">
                                 <a href="#" class="text-base md:text-xl lg:text-2xl font-semibold">Name of dataset</a>
                                  <p class="mt-2 text-gray-300 font-semibold">
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Interdum ante sed aenean dolor 
