@@ -8,6 +8,277 @@
     <link rel="stylesheet" href="./build/tailwind.css">
 </head>
 <body>
-    
+    <!-- Navbar -->
+    <header class="border-b border-gray-300">
+        <div class="container mx-auto px-6">
+            <div class="flex justify-between items-center">
+
+                <!-- Logo -->
+                <div class="">
+                    <a href="#" class="flex items-center text-2xl xl:text-4xl font-semibold">
+                        <img src="./img/near-logo-black.png" alt="" class="border-r-2 border-gray-500 mr-4 my-4 pr-3 w-16">
+                        Analytics
+                    </a>
+                </div>
+
+                <!-- Menu -->
+                <div class="hidden lg:block">
+                    <ul class="flex space-x-6 text-gray-900 font-semibold xl:text-lg">
+                        <li class=""><a href="#">About contract</a></li>
+                        <li class=""><a href="#">How it works</a></li>
+                        <li class=""><a href="#">Сontract opportunitiess</a></li>
+                    </ul>
+                </div>
+
+                <!-- Login button -->
+                <div class="flex items-center justify-between">
+                    <!-- Не могу поменять картинку логтипа с другим цветом во время hover/mouseover по средствам ксс -->
+                    <a href="#" class="hidden md:flex items-center justify-center text-base font-semibold w-60 btn">
+                        Log in with NEAR
+                        <img src="./img/near-logo-white.png" alt="" class="ml-3">
+                    </a>
+                    <a href="" class="ml-8 lg:hidden">
+                        <img src="./img/menu.png" alt="" class="">
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+    <!-- Offer -->
+    <section class="relative">
+
+        <img src="./img/purple.png" alt="" class="absolute z-1 w-full">
+        
+        <!-- Offer text -->
+        <div class="container mx-auto px-6">
+            <h1 class="text-4xl md:text-7xl lg:text-9xl font-bold text-center mt-12">
+                NEAR Analytics <br> project.
+            </h1>
+            <p class="text-gray-900 text-center text-lg mt-12 font-semibold">
+                This project is the first step to bringing AI to the NEAR blockchain. 
+                It contains two interacting smart <br class="hidden lg:block"> contracts, which enable data storage 
+                & analysis in addition to providing a simple authorization <br class="hidden lg:block"> mechanism.
+            </p>
+            <div class="mt-10 flex flex-col md:flex-row justify-center items-center space-x-0 space-y-4 md:space-y-0 md:space-x-10">
+                <a href="#" class="btn w-64 box-border font-semibold">Go to dashboard</a>
+                <a href="#" class="inline-block w-64 border-2 text-center font-semibold py-3 rounded-full border-gray-900 hover:bg-black hover:text-white">About contract</a>
+            </div>
+        </div>
+
+        <img src="./img/bottom.png" alt="" class="w-full mt-16">
+    </section>
+
+    <!-- About section 
+    <section>
+        <div class="container mx-auto px-6">
+            <div class="relative bg-gray-800 rounded-3xl h-570">
+                <div class="relative w-full h-full">
+                    <img src="./img/abs.png" alt="" class="absolute z-1 w-full">
+                    <img src="./img/Phone.png" alt="" class="absolute -top-10 left-5">
+                    <div class=" h-570 w-1/2 ml-auto mr-24 ">
+                        <div class="">
+                            <h2 class="text-white text-7xl font-bold">About contract.</h2>
+                            <p class="text-white text-lg mt-6">
+                                In short: users can create 2D datasets (for a small fee) and incrementally fill 
+                                them with their data. These datasets then provide various data analysis techniques 
+                                to the general public. Everything is stored on the blockchain, which makes data 
+                                manipulation really difficult.
+                            </p>
+                            <a href="#" class="inline-block mt-8 w-64 font-semibold bg-gradient-to-r from-purple-500 to-purple-800 py-3 text-center text-white rounded-full transform hover:scale-105">Try contract</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>-->
+
+    <!-- About section -->
+    <section>
+        <div class="container mx-auto px-6">
+            <div class="bg-gray-800 rounded-3xl min-h-570">
+                <div class="w-full h-full wave px-6 py-8">
+                    <div class="flex flex-col lg:flex-row">
+                        <div class="relative w-2/5 hidden lg:block">
+                            <img src="./img/Phone.png" alt="" class="absolute top-20 md:-left-24 lg:left-0 lg:-top-20">
+                        </div>
+                        <div class="w-full lg:w-3/5 pt-10">
+                            <h2 class="text-white text-2xl md:text-4xl lg:text-7xl font-bold">About contract.</h2>
+                            <p class="text-white text-sm lg:text-lg mt-6">
+                                In short: users can create 2D datasets (for a small fee) and incrementally fill 
+                                them with their data. These datasets then provide various data analysis techniques 
+                                to the general public. Everything is stored on the blockchain, which makes data 
+                                manipulation really difficult.
+                            </p>
+                            <a href="#" class="inline-block mt-8 w-64 font-semibold bg-gradient-to-r from-purple-500 to-purple-800 py-3 text-center text-white rounded-full transform hover:scale-105">Try contract</a>
+                        </div>
+                        <div class=" lg:hidden py-8">
+                            <img src="./img/Phone.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How it works -->
+    <section>
+        <div class="container mx-auto px-6 my-24">
+            <div class="flex flex-col md:flex-row items-center">
+               <div class="w-full md:w-1/2">
+                   <h1 class="text-6xl font-bold">
+                        How it works.
+                   </h1>
+                   <p class="text-blue-900 font-semibold text-lg w-4/5 mt-8">
+                    This project is the first step to bringing AI to the NEAR blockchain. 
+                    It contains two interacting smart contracts, which enable data storage 
+                    & analysis in addition to providing a simple authorization mechanism.
+                   </p>
+                   <p class="text-blue-900 font-semibold text-lg w-4/5 mt-8">
+                    This project is the first step to bringing AI to the NEAR blockchain. 
+                    It contains two interacting smart contracts, which enable data storage 
+                    & analysis in addition to providing a simple authorization mechanism.
+                   </p>
+               </div>
+               <div class="w-full md:w-1/2 mt-24 md:mt-0">
+                   <img src="./img/Illustration.png" alt="">
+               </div> 
+            </div>
+        </div>
+    </section>
+
+    <!-- Сontract opportunities -->
+    <section class="wave-purple">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-2xl md:text-6xl font-bold">Сontract opportunities.</h1>
+            
+            <!-- One row -->
+            <div class="relative flex flex-col md:flex-row justify-center items-center mt-12 space-y-12 md:space-y-0 md:mt-24">
+
+                <!-- First card -->
+                <div class="flex flex-col items-center w-96 shadow-2xl rounded-2xl bg-white pb-10 md:-mr-10 px-6">
+                    <img src="./img/Icon.png" alt="icon" class="-mt-6 w-24 h-24 mx-auto">
+                    <h4 class="text-sm lg:text-xl text-gray-700 font-bold">
+                        Manage multiple datasets.
+                    </h4>
+                    <a href="#" class="flex items-center text-gradient hover:text-purple-500 text-sm lg:text-xl font-bold mt-2">
+                        Go to dashboard 
+                        <img src="./img/right-arrow.png" alt="" class="ml-2">
+                    </a>
+                </div>
+
+                <img src="./img/horizontal.png" alt="" class="z-1 hidden md:block">
+
+                <!-- Second card -->
+                <div class="flex flex-col items-center w-96 shadow-2xl rounded-2xl bg-white pb-10 md:-ml-10 px-6">
+                    <img src="./img/Icon.png" alt="icon" class="-mt-6 w-24 h-24 mx-auto">
+                    <h4 class="text-sm lg:text-xl text-gray-700 font-bold">
+                        Manage write-permissions.
+                    </h4>
+                    <a href="#" class="flex items-center text-gradient hover:text-purple-500 text-sm lg:text-xl font-bold mt-2">
+                        Go to dashboard 
+                        <img src="./img/right-arrow.png" alt="" class="ml-2">
+                    </a>
+                </div>
+
+                <img src="./img/Vertical.png" alt="" class="z-1 absolute top-32 hidden md:block md:left-32 xl:left-96">
+                <img src="./img/Vertical.png" alt="" class="z-1 absolute top-32 hidden md:block md:right-32 xl:right-96">
+            </div>
+
+            <!-- One row -->
+            <div class="relative flex flex-col md:flex-row justify-center items-center mt-12 space-y-12 md:space-y-0 md:mt-24">
+
+                <!-- Third card -->
+                <div class="flex flex-col items-center w-96 shadow-2xl rounded-2xl bg-white pb-10 md:-mr-10 px-6">
+                    <img src="./img/Icon.png" alt="icon" class="-mt-6 w-24 h-24 mx-auto">
+                    <h4 class="text-sm lg:text-xl text-gray-700 font-bold">
+                        Calculate basic descriptive statistics for the datasets
+                    </h4>
+                    <a href="#" class="flex items-center text-gradient hover:text-purple-500 text-sm lg:text-xl font-bold mt-2">
+                        Go to dashboard 
+                        <img src="./img/right-arrow.png" alt="" class="ml-2">
+                    </a>
+                </div>
+
+                <img src="./img/horizontal.png" alt="" class="z-1 hidden md:block">
+
+                <!-- Fourth card -->
+                <div class="flex flex-col items-center w-96 shadow-2xl rounded-2xl bg-white pb-10 md:-ml-10 px-6">
+                    <img src="./img/Icon.png" alt="icon" class="-mt-6 w-24 h-24 mx-auto">
+                    <h4 class="text-sm lg:text-xl text-gray-700 font-bold">
+                        Give a prediction to unknown values (by fitting a linear model).
+                    </h4>
+                    <a href="#" class="flex items-center text-gradient hover:text-purple-500 text-sm lg:text-xl font-bold mt-2">
+                        Go to dashboard 
+                        <img src="./img/right-arrow.png" alt="" class="ml-2">
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Try NEAR Analytics for free. -->
+    <section class="relative pb-24 lg:mb-0">
+        <img src="./img/bottom.png" alt="" class="absolute bottom-0 w-full">
+        <div class="container mt-24 xl:h-screen mx-auto px-6 pt-24">
+            <h1 class="text-4xl md:text-7xl lg:text-9xl font-bold text-center">
+                Try NEAR Analytics for free.
+            </h1>
+            <p class="mt-9 text-blue-900 text-center font-semibold tracking-wide">
+                Manage your datasets, explore analytics and do analysis in your <br class="hidden md:block"> data by NEAR Blochain
+            </p>
+            <div class="flex justify-center ">
+                <a href="#" class="mt-8 btn w-52">Go to dashboard</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 py-10">
+        <div class="container mx-auto px-6">
+            <div class="grid lg:grid-cols-5">
+                <div class="">
+                    <div class="flex items-center">
+                        <img src="./img/near-logo-white-desc.png" alt="" class="w-16">
+                        <div class="h-20 ml-2 mr-3 bg-white rounded-full border border-gray-300"></div>
+                        <p class="text-white text-xl xl:text-4xl font-medium">Analytics</p>
+                    </div>
+                    <a href="#" class="mt-2 ml-2 inline-block text-gray-200 text-lg">info@nearanalytics</a>   
+                    <br>
+                    <a href="#" class="mt-2 ml-2 inline-block text-gray-200 text-lg">1-232-3434 (Main)</a>
+                </div>
+                <div class="mt-8 ml-2 xl:ml-14">
+                    <p class="font-semibold text-white text-lg">About</p>
+                    <ul class="text-white text-lg space-y-1 mt-2">
+                        <li class=""><a href="#" class="hover:text-gray-300">About contract</a></li>
+                        <li class=""><a href="#" class="hover:text-gray-300">About NEAR </a></li>
+                        <li class=""><a href="#" class="hover:text-gray-300">About NEAR ecosystem</a></li>
+                    </ul>
+                </div>
+                <div class="mt-8 ml-2 xl:ml-14">
+                    <p class="font-semibold text-white text-lg">Community</p>
+                    <ul class="text-white text-lg space-y-1 mt-2">
+                        <li class=""><a href="#" class="hover:text-gray-300">Community OS Wiki</a></li>
+                        <li class=""><a href="#" class="hover:text-gray-300">Forum</a></li>
+                        <li class=""><a href="#" class="hover:text-gray-300">Events</a></li>
+                    </ul>
+                </div>
+                <div class="mt-8 ml-2 xl:ml-14">
+                    <p class="font-semibold text-white text-lg">Help</p>
+                    <ul class="text-white text-lg space-y-1 mt-2">
+                        <li class=""><a href="#" class="hover:text-gray-300">Support</a></li>
+                        <li class=""><a href="#" class="hover:text-gray-300">info@nearanalytics</a></li>
+                        <li class=""><a href="#" class="hover:text-gray-300">1-232-3434 (Main)</a></li>
+                    </ul>
+                </div>
+                <div class="flex items-center justify-center mt-8 lg:mt-0">
+                    <a href="" class="inline-block border border-gray-200 rounded-full text-white font-semibold text-lg py-4 w-full text-center hover:bg-white hover:text-gray-800">Go to dashboard</a>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>

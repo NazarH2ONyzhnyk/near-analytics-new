@@ -1,3 +1,42 @@
 @tailwind base;
 @tailwind components;
+
+.text-gradient{
+    @apply text-transparent bg-clip-text bg-gradient-to-br from-purple-500 to-purple-800;
+}
+.btn {
+    @apply text-center py-3 rounded-full bg-gradient-to-r from-purple-500 to-purple-800 text-white;
+}
+.btn:hover {
+    @apply bg-white text-gradient border-2 border-purple-600;
+}
+
 @tailwind utilities;
+
+@layer utilities {
+    .z-1 {
+        z-index: -1;
+    }
+    .h-570{
+        height: 570px;
+    }
+    .min-h-570{
+        min-height: 570px;
+    }
+    .w-371 {
+        width: 371px;
+    }
+    .w-689 {
+        width: 689px;
+    }
+    .wave {
+        background: url('../img/abs.png') no-repeat;
+        background-size: contain;
+        background-position: 50% 50%;
+    }
+    .wave-purple {
+        background: url('../img/purple.png') no-repeat;
+        background-size: contain;
+        background-position: 50% 50%;
+    }
+}
