@@ -31929,6 +31929,10 @@ video {
   min-height: 570px;
 }
 
+.min-w-24 {
+  min-width: 6rem;
+}
+
 .w-371 {
   width: 371px;
 }
@@ -31947,6 +31951,10 @@ video {
   background: url('../img/purple.png') no-repeat;
   background-size: contain;
   background-position: 50% 50%;
+}
+
+.sh-card {
+  box-shadow: -24px -24px 48px #FAFBFF, 24px 24px 48px #A6ABBD;
 }
 
 @media (min-width: 640px) {
