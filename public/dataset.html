@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Near analytics</title>
+    <link rel="stylesheet" href="./build/tailwind.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <header class="border-b border-gray-300">
+        <div class="container mx-auto px-6">
+            <div class="flex justify-between items-center">
+
+                <!-- Logo -->
+                <div class="">
+                    <a href="#" class="flex items-center text-2xl xl:text-4xl font-semibold">
+                        <img src="./img/near-logo-black.png" alt="" class="border-r-2 border-gray-500 mr-4 my-4 pr-3 w-16">
+                        Analytics
+                    </a>
+                </div>
+
+                
+                <!-- Right side menu -->
+                <div class="flex items-center justify-between">
+
+                    <!-- Search -->
+                    <div class="hidden md:block">
+                        <div class="flex items-center">
+                            <input type="text" class="w-72 py-3 pl-6 font-semibold border rounded-3xl outline-none hover:border-pink-300 focus:border-pink-300" placeholder="Find dataset">
+                            <img src="./img/search.png" alt="" class="h-6 w-6 -ml-10">
+                        </div>
+                        
+                    </div>
+
+                    <!-- Menu -->
+                    <ul class="hidden lg:flex items-center space-x-4 mx-8 font-semibold text-blue-900">
+                        <li class=""><a href="" class="">Home</a></li>
+                        <li class=""><a href="" class="">Help</a></li>
+                    </ul>
+                    
+                    <a href="#" class="hidden lg:flex items-center justify-center text-base font-semibold w-60 btn">
+                        Create a dataset
+                    </a>
+                    <a href="./dashboard-mobile-menu.html" class="ml-8 lg:hidden">
+                        <img src="./img/menu.png" alt="" class="">
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </header>
+    
+    <!-- Dataset -->
+    <section>
+        <div class="container mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-3 mt-6 md:mt-20 gap-x-0 xl:gap-x-20">
+
+                <!-- Dataset info -->
+                <div class="col-span-1">
+                    <div class="container mx-auto px-3 md:px-0">
+                        <h1 class="font-bold text-2xl md:text-4xl lg:text-5xl">Name of dataset.</h1>
+                        <p class="text-base leading-relaxed mt-3">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Interdum ante sed 
+                            aenean dolor pellentesque congue ipsum. Dignissim aliquet consequat, ultricies 
+                            molestie gravida sem. Id semper vestibulum lectus nisl. Diam nibh lacus id.
+                        </p>
+                        <div class="mt-11 space-y-6">
+                            <a href="#" class="inline-block w-full btn border">Edit dataset</a>
+                            <a href="#" class="flex items-center justify-center w-full py-3 border border-red-600 text-red-600 rounded-full hover:bg-red-600 hover:text-white">
+                                Delete dataset
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Dataset charts -->
+                <div class="col-span-1 md:col-span-2 mt-12 lg:mt-0">
+                    <div class="mx-auto px-6">
+                        <div class="flex flex-col lg:flex-row">
+
+                            <!-- Title for chart -->
+                            <div class="w-full lg:w-1/2">
+                                <p class="text-gray-800 text-lg">📊 Vertical Bars</p>
+                                <p class="text-gray-400">Chart</p>
+                                <img src="./img/Desc ↓.png" alt="" class="">
+                            </div>
+
+                            <!-- Options -->
+                            <div class="w-full lg:w-1/2 space-y-4">
+                                
+                                <!-- One row -->
+                                <div class=" flex flex-col sm:flex-row lg:flex-col 2xl:flex-row 2xl:space-y-0 mt-8 lg:mt-0">
+
+                                    <!-- One option -->
+                                    <div class="w-full flex items-center">
+                                        <input type="text" class="mt-2 w-1/3 border py-2 rounded-full outline-none hover:border-purple-500 focus:border-purple-500 pl-6">
+                                        <p class="ml-4">Option 1</p>
+                                        <a href="" class="ml-4">
+                                            <img src="./img/edit.png" alt="">
+                                        </a>
+                                        <a href="" class="">
+                                            <img src="./img/close_big.png" alt="">
+                                        </a>
+                                    </div>
+
+                                    <!-- One option -->
+                                    <div class="w-full flex items-center">
+                                        <input type="text" class="mt-2 w-1/3 border py-2 rounded-full outline-none hover:border-purple-500 focus:border-purple-500 pl-6">
+                                        <p class="ml-4">Option 1</p>
+                                        <a href="" class="ml-4">
+                                            <img src="./img/edit.png" alt="">
+                                        </a>
+                                        <a href="" class="">
+                                            <img src="./img/close_big.png" alt="">
+                                        </a>
+                                    </div>
+                                    
+                                </div>
+                                <!-- One row -->
+                                <div class=" flex flex-col sm:flex-row lg:flex-col 2xl:flex-row 2xl:space-y-0 mt-8 lg:mt-0">
+
+                                    <!-- One option -->
+                                    <div class="w-full flex items-center">
+                                        <input type="text" class="mt-2 w-1/3 border py-2 rounded-full outline-none hover:border-purple-500 focus:border-purple-500 pl-6">
+                                        <p class="ml-4">Option 1</p>
+                                        <a href="" class="ml-4">
+                                            <img src="./img/edit.png" alt="">
+                                        </a>
+                                        <a href="" class="">
+                                            <img src="./img/close_big.png" alt="">
+                                        </a>
+                                    </div>
+
+                                    <!-- One option -->
+                                    <div class="w-full flex items-center">
+                                        <input type="text" class="mt-2 w-1/3 border py-2 rounded-full outline-none hover:border-purple-500 focus:border-purple-500 pl-6">
+                                        <p class="ml-4">Option 1</p>
+                                        <a href="" class="ml-4">
+                                            <img src="./img/edit.png" alt="">
+                                        </a>
+                                        <a href="" class="">
+                                            <img src="./img/close_big.png" alt="">
+                                        </a>
+                                    </div>
+                                    
+                                </div>
+                                <!-- One row -->
+                                <div class=" flex flex-col sm:flex-row lg:flex-col 2xl:flex-row 2xl:space-y-0 mt-8 lg:mt-0">
+
+                                    <!-- One option -->
+                                    <div class="w-full flex items-center">
+                                        <input type="text" class="mt-2 w-1/3 border py-2 rounded-full outline-none hover:border-purple-500 focus:border-purple-500 pl-6">
+                                        <p class="ml-4">Option 1</p>
+                                        <a href="" class="ml-4">
+                                            <img src="./img/edit.png" alt="">
+                                        </a>
+                                        <a href="" class="">
+                                            <img src="./img/close_big.png" alt="">
+                                        </a>
+                                    </div>
+
+                                    <!-- One option -->
+                                    <div class="w-full flex items-center">
+                                        <input type="text" class="mt-2 w-1/3 border py-2 rounded-full outline-none hover:border-purple-500 focus:border-purple-500 pl-6">
+                                        <p class="ml-4">Option 1</p>
+                                        <a href="" class="ml-4">
+                                            <img src="./img/edit.png" alt="">
+                                        </a>
+                                        <a href="" class="">
+                                            <img src="./img/close_big.png" alt="">
+                                        </a>
+                                    </div>
+                                    
+                                </div>
+
+                                <!-- Calculate section -->
+                                <div class="mt- ml-2">
+                                    <div class="flex items-center">
+                                        <p class="bg-gradient-to-r from-purple-500 to-purple-800 px-4 text-white font-semibold rounded-full">12</p>
+                                        <p class="font-semibold text-gradient ml-4">Results</p>
+                                    </div>
+                                    <div class="mt-2">
+                                        <div class="flex flex-row">
+                                            <div class="">
+                                                <h3 class="text-lg text-gray-800">Heading</h3>
+                                                <p class="text-gray-400">Hac nulla egestas tristique laoreet.</p>
+                                            </div>
+                                            <a href="#" class="flex items-center justify-center btn h-12 w-40 ml-auto mt-2 font-semibold">Calculate</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <!-- Pie chart -->
+                        <div class="flex flex-col lg:flex-row mt-24">
+
+                            <!-- Title for chart -->
+                            <div class="w-full lg:w-1/2">
+                                <p class="text-gray-800 text-lg">Pie chart</p>
+                                <p class="text-gray-400">Dataset</p>
+                                <img src="./img/Pie Classic.png" alt="" class="">
+                            </div>
+
+                            <!-- Options -->
+                            <div class="w-full lg:w-1/2 space-y-4">
+                                
+                                <!-- One row -->
+                                <div class=" flex flex-col sm:flex-row lg:flex-col 2xl:flex-row 2xl:space-y-0 mt-8 lg:mt-0">
+
+                                    <!-- One option -->
+                                    <div class="w-full flex items-center">
+                                        <input type="text" class="mt-2 w-1/3 border py-2 rounded-full outline-none hover:border-purple-500 focus:border-purple-500 pl-6">
+                                        <p class="ml-4">Option 1</p>
+                                        <a href="" class="ml-4">
+                                            <img src="./img/edit.png" alt="">
+                                        </a>
+                                        <a href="" class="">
+                                            <img src="./img/close_big.png" alt="">
+                                        </a>
+                                    </div>
+
+                                    <!-- One option -->
+                                    <div class="w-full flex items-center">
+                                        <input type="text" class="mt-2 w-1/3 border py-2 rounded-full outline-none hover:border-purple-500 focus:border-purple-500 pl-6">
+                                        <p class="ml-4">Option 1</p>
+                                        <a href="" class="ml-4">
+                                            <img src="./img/edit.png" alt="">
+                                        </a>
+                                        <a href="" class="">
+                                            <img src="./img/close_big.png" alt="">
+                                        </a>
+                                    </div>
+                                    
+                                </div>
+                                <!-- One row -->
+                                <div class=" flex flex-col sm:flex-row lg:flex-col 2xl:flex-row 2xl:space-y-0 mt-8 lg:mt-0">
+
+                                    <!-- One option -->
+                                    <div class="w-full flex items-center">
+                                        <input type="text" class="mt-2 w-1/3 border py-2 rounded-full outline-none hover:border-purple-500 focus:border-purple-500 pl-6">
+                                        <p class="ml-4">Option 1</p>
+                                        <a href="" class="ml-4">
+                                            <img src="./img/edit.png" alt="">
+                                        </a>
+                                        <a href="" class="">
+                                            <img src="./img/close_big.png" alt="">
+                                        </a>
+                                    </div>
+
+                                    <!-- One option -->
+                                    <div class="w-full flex items-center">
+                                        <input type="text" class="mt-2 w-1/3 border py-2 rounded-full outline-none hover:border-purple-500 focus:border-purple-500 pl-6">
+                                        <p class="ml-4">Option 1</p>
+                                        <a href="" class="ml-4">
+                                            <img src="./img/edit.png" alt="">
+                                        </a>
+                                        <a href="" class="">
+                                            <img src="./img/close_big.png" alt="">
+                                        </a>
+                                    </div>
+                                    
+                                </div>
+                                <!-- One row -->
+                                <div class=" flex flex-col sm:flex-row lg:flex-col 2xl:flex-row 2xl:space-y-0 mt-8 lg:mt-0">
+
+                                    <!-- One option -->
+                                    <div class="w-full flex items-center">
+                                        <input type="text" class="mt-2 w-1/3 border py-2 rounded-full outline-none hover:border-purple-500 focus:border-purple-500 pl-6">
+                                        <p class="ml-4">Option 1</p>
+                                        <a href="" class="ml-4">
+                                            <img src="./img/edit.png" alt="">
+                                        </a>
+                                        <a href="" class="">
+                                            <img src="./img/close_big.png" alt="">
+                                        </a>
+                                    </div>
+
+                                    <!-- One option -->
+                                    <div class="w-full flex items-center">
+                                        <input type="text" class="mt-2 w-1/3 border py-2 rounded-full outline-none hover:border-purple-500 focus:border-purple-500 pl-6">
+                                        <p class="ml-4">Option 1</p>
+                                        <a href="" class="ml-4">
+                                            <img src="./img/edit.png" alt="">
+                                        </a>
+                                        <a href="" class="">
+                                            <img src="./img/close_big.png" alt="">
+                                        </a>
+                                    </div>
+                                    
+                                </div>
+
+                                <!-- Calculate section -->
+                                <div class="mt- ml-2">
+                                    <div class="flex items-center">
+                                        <p class="bg-gradient-to-r from-purple-500 to-purple-800 px-4 text-white font-semibold rounded-full">12</p>
+                                        <p class="font-semibold text-gradient ml-4">Results</p>
+                                    </div>
+                                    <div class="mt-2">
+                                        <div class="flex flex-row">
+                                            <div class="">
+                                                <h3 class="text-lg text-gray-800">Heading</h3>
+                                                <p class="text-gray-400">Hac nulla egestas tristique laoreet.</p>
+                                            </div>
+                                            <a href="#" class="flex items-center justify-center btn h-12 w-40 ml-auto mt-2 font-semibold">Calculate</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+</body>
+</html>
