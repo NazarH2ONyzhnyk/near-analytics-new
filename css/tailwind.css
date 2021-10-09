@@ -35,6 +35,18 @@
     .w-689 {
         width: 689px;
     }
+    .alert {
+        width: 279px;
+    }
+    @screen md {
+        .alert {
+            width: 488px;
+        }
+        
+    }
+    .bg-50 {
+        background-color: rgba(0, 0, 0, 0.7);
+    }
     .wave {
         background: url('../img/abs.png') no-repeat;
         background-size: contain;
