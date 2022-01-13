@@ -12,13 +12,32 @@ module.exports = {
         },
         gray: {
           800: '#282727',
-        }
+        },
+        orange: {
+          500: '#F84E29',
+        },
+        blue: {
+          500: '#4B4AEF',
+        },
       },
+      width: {
+        '50': '50px',
+        '61': '60px',
+        '65': '64px',
+        '376': '376px',
+      },
+      height: {
+        '30': '30px',
+        '50': '50px',
+        '65': '64px',
+        '140': '140px',
+      }
     },
     
   },
   variants: {
     extend: {
+      scale: ['active'],
     },
   },
   plugins: [],
